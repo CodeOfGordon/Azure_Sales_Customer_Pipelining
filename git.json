@@ -1,52 +1,52 @@
 [
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Calendar.csv",
-        "data_folder_name": "AdventureWorks_Calendar",
+        "data_folder_name": "adventureworks-calendar",
         "data_file_name": "AdventureWorks_Calendar.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Customers.csv",
-        "data_folder_name": "AdventureWorks_Customers",
+        "data_folder_name": "adventureworks-customers",
         "data_file_name": "AdventureWorks_Customers.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Product_Categories.csv",
-        "data_folder_name": "AdventureWorks_Product_Categories",
+        "data_folder_name": "adventureworks-product-categories",
         "data_file_name": "AdventureWorks_Product_Categories.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Product_Subcategories.csv",
-        "data_folder_name": "AdventureWorks_Product_Subcategories",
+        "data_folder_name": "adventureworks-product-subcategories",
         "data_file_name": "AdventureWorks_Product_Subcategories.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Products.csv",
-        "data_folder_name": "AdventureWorks_Products",
+        "data_folder_name": "adventureworks-products",
         "data_file_name": "AdventureWorks_Products.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Returns.csv",
-        "data_folder_name": "AdventureWorks_Returns",
+        "data_folder_name": "adventureworks-returns",
         "data_file_name": "AdventureWorks_Returns.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Sales_2015.csv",
-        "data_folder_name": "AdventureWorks_Sales_2015",
+        "data_folder_name": "adventureworks-sales-2015",
         "data_file_name": "AdventureWorks_Sales_2015.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Sales_2016.csv",
-        "data_folder_name": "AdventureWorks_Sales_2016",
+        "data_folder_name": "adventureworks-sales-2016",
         "data_file_name": "AdventureWorks_Sales_2016.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Sales_2017.csv",
-        "data_folder_name": "AdventureWorks_Sales_2017",
+        "data_folder_name": "adventureworks-sales-2017",
         "data_file_name": "AdventureWorks_Sales_2017.csv"
     },
     {
         "data_relative_url": "CodeOfGordon/Azure_Sales_Customer_Pipelining/refs/heads/main/AdventureWorks_Territories.csv",
-        "data_folder_name": "AdventureWorks_Territories",
+        "data_folder_name": "adventureworks-territories",
         "data_file_name": "AdventureWorks_Territories.csv"
     }
 ]
