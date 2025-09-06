@@ -16,7 +16,7 @@ As such, this will be the architecture, which follows the medallion architecture
     Here I set up the datalake, ensuring it is in hierarchal namespace mode in order to allow for folders, which I promptly named bronze, silver, gold to organize the medallion architecture
 
 ### 2. Set up Data Factory & create Linked Services (Bronze Layer)
-![Linked services](/Steps/2_Linked_Services.png.png?raw=true)
+![Linked services](/Steps/2_Linked_Services.png?raw=true)
 Next I set up Data Factory, and created linked services which act as a config/instructions for whenever our activity wants to access a source/sink (in this case: HTTP, Data Lake)
 
 ### 3. Create Pipeline in Datafactory (Bronze Layer)
@@ -71,7 +71,7 @@ Schema_creation
 
 ### 9. Lastly, connect PowerBI to Synapse
 ![PowerBI Connection](/Steps/9_PowerBI_connection.png?raw=true)
-![PowerBI Data](/Steps/9_PowerBI_data.png.png?raw=true)
+![PowerBI Data](/Steps/9_PowerBI_data.png?raw=true)
     I did this by connecting via the serverless synapse url, and inputting the required synapse admin credentials (i.e. the password made when creating synapse, and the username typically being sqladminuser if you're the admin (found in synapse Overview)).
 
 
