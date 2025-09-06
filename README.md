@@ -21,11 +21,11 @@ Next I set up Data Factory, and created linked services which act as a config/in
 
 ### 3. Create Pipeline in Datafactory (Bronze Layer)
 ![Linked services](/Steps/3_Pipeline.png?raw=true)
-This would be where I did the extracting part of the ETL process.
-    a. Upload parameter arguments by storing them in a git json file in our data lake
-    b. Searched for and loaded the parameter arguments json file into data factory
-    c. Sequentially looped through each object in the parameter arguments
-    d. Using these parameters, searched github (via HTTP linked service) for each csv dataset, and loaded them into their respective folders under the bronze folder (via Data Lake linked service)
+This would be where I did the extracting part of the ETL process:
+1. Upload parameter arguments by storing them in a git json file in our data lake
+2. Searched for and loaded the parameter arguments json file into data factory
+3. Sequentially looped through each object in the parameter arguments
+4. Using these parameters, searched github (via HTTP linked service) for each csv dataset, and loaded them into their respective folders under the bronze folder (via Data Lake linked service)
 
 
 ### 4. Set up app in MS Entra ID (Silver Layer)
@@ -61,8 +61,8 @@ Schema_creation
 1. [Create the gold schema](/SQL_Scripts/Schema_creation.sql)
 
 2. [Create view tables to be accessed by PowerBI](/SQL_Scripts/View_creation.sql). View tables rather than raw tables as
-    a. They're always up to date since they're just an abstraction for a query statement that's ran at run-time
-    b. Limited and granular access to columns/rows that could be confidential, because although we trust our data analysts, we DON'T trust hackers who might take control of their user permissions.
+* a. They're always up to date since they're just an abstraction for a query statement that's ran at run-time
+* b. Limited and granular access to columns/rows that could be confidential, because although we trust our data analysts, we DON'T trust hackers who might take control of their user permissions.
 
     Typically you would do more complex transformations here in order to finetune the view tables to be what your end user wants.
 
