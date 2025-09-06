@@ -78,12 +78,14 @@ Schema_creation
 <br><br><br>
 Some terminology I found confusing along the way.
 <br>
+
 Security terms:
-    - Service principal = An app that acts as a user, can give permission to this "user" to gain a specified amount of access to the desired resources. Typically for external apps/tools
-    - System assigned Managed Identities = service principal except its secrets are managed (e.g. you don't have to store connect w/ the secret key like I did with DataBricks); can toggle on/off for a resource. Only possible for Azure apps/tools. Typically when you want to connect a specific Azure (only) resource to another (i.e. one-to-one)
-    - User assigned Managed Identities = System assigned Managed Identities except it's generic, i.e. multiple resources can be assigned this "user". Typically when you want to connect multiple Azure (only) resource to another or more (i.e. many-to-many)
+* Service principal = An app that acts as a user, can give permission to this "user" to gain a specified amount of access to the desired resources. Typically for external apps/tools
+* System assigned Managed Identities = service principal except its secrets are managed (e.g. you don't have to store connect w/ the secret key like I did with DataBricks); can toggle on/off for a resource. Only possible for Azure apps/tools. Typically when you want to connect a specific Azure (only) resource to another (i.e. one-to-one)
+* User assigned Managed Identities = System assigned Managed Identities except it's generic, i.e. multiple resources can be assigned this "user". Typically when you want to connect multiple Azure (only) resource to another or more (i.e. many-to-many)
 <br>
+
 Data terms
-    - Datalake = a massive database that stores various kinds of data types (raw, unstructures, semi-structured) as objects, and stores their metadata in order for read/write to and from the lake to be possible
-    - Data warehouse = a giant database that stores structured data, similar to SQL databases except it has tools for analytics
-    - Datalakehouse = basically uses data warehouse to query from the Datalake by using its metadata files
+* Datalake = a massive database that stores various kinds of data types (raw, unstructures, semi-structured) as objects, and stores their metadata in order for read/write to and from the lake to be possible
+* Data warehouse = a giant database that stores structured data, similar to SQL databases except it has tools for analytics
+* Datalakehouse = basically uses data warehouse to query from the Datalake by using its metadata files
